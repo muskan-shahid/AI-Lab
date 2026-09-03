@@ -271,28 +271,21 @@ Fixed Code Re-Scanned
 
 
 ---
-## 🖼️ Dashboard Preview
+# 🖼️ Dashboard Preview
 
 ### 1. Security Scanner & Issue Detection
 
 <p align="center">
-  <img src="./assets/banner.jpg" width="400" alt="Security Scanner">
-  <img src="./assets/issues.jpg" width="400" alt="Issue Detection">
+  <img src="docs/images/scanner_ui.png" width="48%" alt="CodeSentinel Scanner UI">
+  <img src="docs/images/security_issues.png" width="48%" alt="Security Issues Detection">
 </p>
 
 ### 2. Code Refactoring & AI Explanation
 
 <p align="center">
-  <img src="./assets/comparison.jpg" width="400" alt="Code Comparison">
-  <img src="./assets/explanation.jpg" width="400" alt="AI Explanation">
+  <img src="docs/images/code_comparison.png" width="48%" alt="Side-by-Side Code Comparison">
+  <img src="docs/images/ai_explanation.png" width="48%" alt="AI Security Explanation">
 </p>
-
-# 🚀 Live Application
-
-*Try CodeSentinel AI online:*
-
-[![Open Live Demo](https://img.shields.io/badge/🚀_Open_Live_Demo-Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)](https://yhxwjrhjy7remgjjhrhgdy.streamlit.app/)
-
 ---
 
 # 👩‍💻 Author
