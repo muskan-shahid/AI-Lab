@@ -277,18 +277,16 @@ Fixed Code Re-Scanned
 ### 1. Security Scanner & Issue Detection
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a8933009-ff2b-440f-aae4-020249f9e637" width="30%">
-  <img src="https://github.com/user-attachments/assets/72d4cb66-a26a-4657-b04b-3dfb500a15ee" width="30%">
+  <img src="https://github.com/user-attachments/assets/a8933009-ff2b-440f-aae4-020249f9e637" width="250">
+  <img src="https://github.com/user-attachments/assets/72d4cb66-a26a-4657-b04b-3dfb500a15ee" width="250">
 </p>
 
 ### 2. Code Refactoring & AI Explanation
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/625a91a7-2113-42d0-ad1b-cec0171181c5" width="30%">
-  <img src="https://github.com/user-attachments/assets/a5fce8ff-d541-47b8-a106-dc139e3b8ce3" width="30%">
+  <img src="https://github.com/user-attachments/assets/625a91a7-2113-42d0-ad1b-cec0171181c5" width="250">
+  <img src="https://github.com/user-attachments/assets/a5fce8ff-d541-47b8-a106-dc139e3b8ce3" width="250">
 </p>
-
-
 ---
 
 # 🚀 Live Application
