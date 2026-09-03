@@ -2,7 +2,7 @@
 
 ### Autonomous Python Security & Refactoring Agent
 
-**Detect → Explain → Fix → Verify**
+*Detect → Explain → Fix → Verify*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://yhxwjrhjy7remgjjhrhgdy.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
@@ -12,9 +12,9 @@
 
 ## 📌 Project Overview
 
-**CodeSentinel AI** is an AI-powered Python security and refactoring agent designed to help developers identify and resolve common security vulnerabilities in source code.
+*CodeSentinel AI* is an AI-powered Python security and refactoring agent designed to help developers identify and resolve common security vulnerabilities in source code.
 
-The agent analyzes Python code, detects potential security issues, explains the risks, generates safer code using **Google Gemini AI**, and re-scans the modified code to verify the improvements.
+The agent analyzes Python code, detects potential security issues, explains the risks, generates safer code using *Google Gemini AI*, and re-scans the modified code to verify the improvements.
 
 ---
 
@@ -24,13 +24,13 @@ Developers can unintentionally introduce security vulnerabilities into Python ap
 
 Common examples include:
 
-* Dangerous use of `eval()` and `exec()`
-* Command injection through `subprocess`
+* Dangerous use of eval() and exec()
+* Command injection through subprocess
 * Hardcoded passwords, API keys, or secrets
 * Unsafe shell command execution
 * Other potentially dangerous coding patterns
 
-These vulnerabilities can lead to **arbitrary code execution, command injection, credential exposure, and system compromise**.
+These vulnerabilities can lead to *arbitrary code execution, command injection, credential exposure, and system compromise*.
 
 CodeSentinel AI helps developers identify these issues early and provides safer alternatives.
 
@@ -40,7 +40,7 @@ CodeSentinel AI helps developers identify these issues early and provides safer 
 
 ### 🔍 Security Detection
 
-Scans Python source code for potentially dangerous patterns using **AST parsing and regex-based detection**.
+Scans Python source code for potentially dangerous patterns using *AST parsing and regex-based detection*.
 
 ### 🔐 Secret Detection
 
@@ -50,13 +50,13 @@ Identifies possible hardcoded credentials, API keys, passwords, and other sensit
 
 Classifies detected issues according to severity:
 
-* 🔴 **HIGH**
-* 🟠 **MEDIUM**
-* 🟢 **LOW**
+* 🔴 *HIGH*
+* 🟠 *MEDIUM*
+* 🟢 *LOW*
 
 ### 🤖 AI-Powered Explanation
 
-Uses **Google Gemini** to explain:
+Uses *Google Gemini* to explain:
 
 * What the vulnerability is
 * Why it is dangerous
@@ -73,7 +73,7 @@ The generated code is scanned again to determine whether the identified vulnerab
 
 ### 🌐 Interactive Interface
 
-Provides a **Streamlit-based web interface** where users can submit Python code and review the security analysis.
+Provides a *Streamlit-based web interface* where users can submit Python code and review the security analysis.
 
 ---
 
@@ -81,7 +81,7 @@ Provides a **Streamlit-based web interface** where users can submit Python code 
 
 CodeSentinel AI follows an autonomous security analysis pipeline. The system receives Python source code, scans it for vulnerabilities, uses AI to explain the detected issues, generates safer code, and finally re-scans the fixed code to verify the result.
 
-```text
+text
                          🛡️ CodeSentinel AI
                                 │
                                 ▼
@@ -130,86 +130,86 @@ CodeSentinel AI follows an autonomous security analysis pipeline. The system rec
                          ▼           ▼
                     ✅ Secure    ⚠️ Issues
                       Fixed       Remain
-```
+
 
 ### Architecture Components
 
 | Component               | Responsibility                                                 |
 | ----------------------- | -------------------------------------------------------------- |
-| **Python Source Code**  | Input provided by the developer                                |
-| **Security Scanner**    | Detects vulnerabilities using AST and regex                    |
-| **Security Findings**   | Identifies vulnerabilities and assigns risk levels             |
-| **Gemini AI**           | Explains vulnerabilities and assists with secure fixes         |
-| **Auto Fixer**          | Generates safer versions of vulnerable code                    |
-| **Security Re-Scan**    | Checks the modified code again                                 |
-| **Verification Result** | Determines whether security issues were successfully addressed |
+| *Python Source Code*  | Input provided by the developer                                |
+| *Security Scanner*    | Detects vulnerabilities using AST and regex                    |
+| *Security Findings*   | Identifies vulnerabilities and assigns risk levels             |
+| *Gemini AI*           | Explains vulnerabilities and assists with secure fixes         |
+| *Auto Fixer*          | Generates safer versions of vulnerable code                    |
+| *Security Re-Scan*    | Checks the modified code again                                 |
+| *Verification Result* | Determines whether security issues were successfully addressed |
 
 ---
 
 # 🤖 Agent PEAS Description
 
-PEAS describes the **Performance Measure, Environment, Actuators, and Sensors** of an intelligent agent.
+PEAS describes the *Performance Measure, Environment, Actuators, and Sensors* of an intelligent agent.
 
 | PEAS Component              | CodeSentinel AI                                                                                                              |
 | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| **P – Performance Measure** | Accurate vulnerability detection, correct risk classification, secure fixes, successful verification, and clear explanations |
-| **E – Environment**         | Python source code, developer codebases, security rules, and static software environments                                    |
-| **A – Actuators**           | Generate secure code, explain vulnerabilities, provide recommendations, and produce security reports                         |
-| **S – Sensors**             | AST parser, regex pattern matching, source-code analysis, and vulnerability detection rules                                  |
+| *P – Performance Measure* | Accurate vulnerability detection, correct risk classification, secure fixes, successful verification, and clear explanations |
+| *E – Environment*         | Python source code, developer codebases, security rules, and static software environments                                    |
+| *A – Actuators*           | Generate secure code, explain vulnerabilities, provide recommendations, and produce security reports                         |
+| *S – Sensors*             | AST parser, regex pattern matching, source-code analysis, and vulnerability detection rules                                  |
 
 ---
 
 ## 🌍 Environment Type
 
-CodeSentinel AI operates in a **digital/software environment**.
+CodeSentinel AI operates in a *digital/software environment*.
 
 | Property             | Description                                                                       |
 | -------------------- | --------------------------------------------------------------------------------- |
-| **Fully Observable** | The agent receives the Python source code provided for analysis                   |
-| **Deterministic**    | Static scanning rules generally produce the same result for the same input        |
-| **Static**           | The environment remains unchanged unless the developer or agent modifies the code |
-| **Single-Agent**     | CodeSentinel AI operates as a single security analysis agent                      |
-| **Discrete**         | Vulnerabilities, fixes, and verification steps are handled as distinct actions    |
+| *Fully Observable* | The agent receives the Python source code provided for analysis                   |
+| *Deterministic*    | Static scanning rules generally produce the same result for the same input        |
+| *Static*           | The environment remains unchanged unless the developer or agent modifies the code |
+| *Single-Agent*     | CodeSentinel AI operates as a single security analysis agent                      |
+| *Discrete*         | Vulnerabilities, fixes, and verification steps are handled as distinct actions    |
 
 ---
 
 # ⚠️ Vulnerabilities Detected
 
-A **security vulnerability** is a weakness in software that can potentially be exploited to cause harm.
+A *security vulnerability* is a weakness in software that can potentially be exploited to cause harm.
 
 CodeSentinel AI currently focuses on vulnerabilities such as:
 
-### 1. Dangerous `eval()`
+### 1. Dangerous eval()
 
-```python
+python
 user_input = input("Enter expression: ")
 result = eval(user_input)
-```
 
-**Risk:** An attacker may provide malicious Python code that gets executed by the application.
+
+*Risk:* An attacker may provide malicious Python code that gets executed by the application.
 
 ---
 
 ### 2. Unsafe Shell Execution
 
-```python
+python
 import subprocess
 
 user_input = input("Enter command: ")
 subprocess.run(user_input, shell=True)
-```
 
-**Risk:** Untrusted input may allow command injection and unauthorized operating-system commands.
+
+*Risk:* Untrusted input may allow command injection and unauthorized operating-system commands.
 
 ---
 
 ### 3. Hardcoded Secrets
 
-```python
+python
 API_KEY = "secret_key_123"
-```
 
-**Risk:** Credentials stored directly in source code may be exposed through repositories, logs, or shared code.
+
+*Risk:* Credentials stored directly in source code may be exposed through repositories, logs, or shared code.
 
 ---
 
@@ -217,12 +217,12 @@ API_KEY = "secret_key_123"
 
 | Technology           | Purpose                                              |
 | -------------------- | ---------------------------------------------------- |
-| **Python**           | Core application and security analysis               |
-| **Python AST**       | Structural source-code analysis                      |
-| **Regex**            | Pattern-based vulnerability and secret detection     |
-| **Google Gemini AI** | Vulnerability explanation and secure code generation |
-| **Streamlit**        | Interactive web interface                            |
-| **Git & GitHub**     | Version control and project management               |
+| *Python*           | Core application and security analysis               |
+| *Python AST*       | Structural source-code analysis                      |
+| *Regex*            | Pattern-based vulnerability and secret detection     |
+| *Google Gemini AI* | Vulnerability explanation and secure code generation |
+| *Streamlit*        | Interactive web interface                            |
+| *Git & GitHub*     | Version control and project management               |
 
 ---
 
@@ -230,7 +230,7 @@ API_KEY = "secret_key_123"
 
 ### Vulnerable Python Code
 
-```python
+python
 import subprocess
 
 user_input = input("Enter command: ")
@@ -238,15 +238,15 @@ user_input = input("Enter command: ")
 result = eval(user_input)
 
 subprocess.run(user_input, shell=True)
-```
+
 
 ### CodeSentinel AI Detection
 
-```text
+text
 HIGH — Dangerous use of eval()
 
 HIGH — subprocess used with shell=True
-```
+
 
 ### AI Analysis
 
@@ -258,7 +258,7 @@ The agent generates a safer version of the vulnerable code.
 
 ### Verification
 
-```text
+text
 Original Code
      ↓
 Vulnerability Detected
@@ -268,7 +268,7 @@ Secure Fix Generated
 Fixed Code Re-Scanned
      ↓
 ✅ Security Verification Successful
-```
+
 
 ---
 
@@ -292,7 +292,7 @@ Fixed Code Re-Scanned
 
 # 🚀 Live Application
 
-**Try CodeSentinel AI online:**
+*Try CodeSentinel AI online:*
 
 [![Open Live Demo](https://img.shields.io/badge/🚀_Open_Live_Demo-Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)](https://yhxwjrhjy7remgjjhrhgdy.streamlit.app/)
 
@@ -300,7 +300,7 @@ Fixed Code Re-Scanned
 
 # 👩‍💻 Author
 
-**Muskan Shahid**
+*Muskan Shahid*
 
 BS Computer Science
 Federal Urdu University of Arts, Sciences & Technology
@@ -309,6 +309,6 @@ Federal Urdu University of Arts, Sciences & Technology
 
 ## 📄 Project Summary
 
-> **CodeSentinel AI** is an autonomous Python security and refactoring agent that detects vulnerabilities, explains security risks, generates safer code using AI, and verifies the resulting code through automated re-scanning.
+> *CodeSentinel AI* is an autonomous Python security and refactoring agent that detects vulnerabilities, explains security risks, generates safer code using AI, and verifies the resulting code through automated re-scanning.
 
-**Detect. Explain. Fix. Verify.**
+*Detect. Explain. Fix. Verify.*
