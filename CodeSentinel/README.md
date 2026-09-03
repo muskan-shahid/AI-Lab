@@ -271,22 +271,14 @@ Fixed Code Re-Scanned
 
 
 ---
-## 🖼️ Dashboard Preview
+🖼️ Dashboard Preview
+1. Security Scanner & Issue Detection
 
-### 1. Security Scanner & Issue Detection
+<p align="center"> <img src="https://github.com/user-attachments/assets/a8933009-ff2b-440f-aae4-020249f9e637" width="48%" alt="CodeSentinel Scanner UI"> <img src="https://github.com/user-attachments/assets/72d4cb66-a26a-4657-b04b-3dfb500a15ee" width="48%" alt="Security Issues Detection"> </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/scanner_ui.png" width="48%" alt="CodeSentinel Scanner UI">
-  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/security_issues.png" width="48%" alt="Security Issues Detection">
-</p>
+2. Code Refactoring & AI Explanation
 
-### 2. Code Refactoring & AI Explanation
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/code_comparison.png" width="48%" alt="Side-by-Side Code Comparison">
-  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/ai_explanation.png" width="48%" alt="AI Security Explanation">
-</p>
----
+<p align="center"> <img src="https://github.com/user-attachments/assets/625a91a7-2113-42d0-ad1b-cec0171181c5" width="48%" alt="Side-by-Side Code Comparison"> <img src="https://github.com/user-attachments/assets/a5fce8ff-d541-47b8-a106-dc139e3b8ce3" width="48%" alt="AI Security Explanation"> </p>
 
 # 👩‍💻 Author
 
