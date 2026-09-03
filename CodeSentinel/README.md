@@ -274,7 +274,9 @@ Fixed Code Re-Scanned
 🖼️ Dashboard Preview
 1. Security Scanner & Issue Detection
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/a8933009-ff2b-440f-aae4-020249f9e637" width="48%" alt="CodeSentinel Scanner UI"> <img src="https://github.com/user-attachments/assets/72d4cb66-a26a-4657-b04b-3dfb500a15ee" width="48%" alt="Security Issues Detection"> </p>
+<p align="center"> <<img width="1600" height="742" alt="image" src="https://github.com/user-attachments/assets/b05d0ab3-cbe8-41be-9c9b-0162a2b83ded" />
+> <<img width="1434" height="778" alt="image" src="https://github.com/user-attachments/assets/de5a8f55-618b-4fd4-9861-0faa4599521b" />
+"> </p>
 
 2. Code Refactoring & AI Explanation
 
