@@ -271,20 +271,20 @@ Fixed Code Re-Scanned
 
 
 ---
-# 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview
 
 ### 1. Security Scanner & Issue Detection
 
 <p align="center">
-  <img src="docs/images/scanner_ui.png" width="48%" alt="CodeSentinel Scanner UI">
-  <img src="docs/images/security_issues.png" width="48%" alt="Security Issues Detection">
+  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/scanner_ui.png" width="48%" alt="CodeSentinel Scanner UI">
+  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/security_issues.png" width="48%" alt="Security Issues Detection">
 </p>
 
 ### 2. Code Refactoring & AI Explanation
 
 <p align="center">
-  <img src="docs/images/code_comparison.png" width="48%" alt="Side-by-Side Code Comparison">
-  <img src="docs/images/ai_explanation.png" width="48%" alt="AI Security Explanation">
+  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/code_comparison.png" width="48%" alt="Side-by-Side Code Comparison">
+  <img src="https://raw.githubusercontent.com/muskan-shahid/AI-Lab/main/CodeSentinel/docs/images/ai_explanation.png" width="48%" alt="AI Security Explanation">
 </p>
 ---
 
