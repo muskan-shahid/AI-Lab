@@ -280,7 +280,9 @@ Fixed Code Re-Scanned
 
 2. Code Refactoring & AI Explanation
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/625a91a7-2113-42d0-ad1b-cec0171181c5" width="48%" alt="Side-by-Side Code Comparison"> <img src="https://github.com/user-attachments/assets/a5fce8ff-d541-47b8-a106-dc139e3b8ce3" width="48%" alt="AI Security Explanation"> </p>
+<p align="center"> <i<img width="1450" height="790" alt="image" src="https://github.com/user-attachments/assets/ea0eacfc-fb20-4465-8c2b-f44c76ec451f" />
+"> <<img width="1464" height="789" alt="image" src="https://github.com/user-attachments/assets/b583e3c6-84a2-4ba7-b009-07ab4e8c6348" />
+n"> </p>
 
 # 👩‍💻 Author
 
