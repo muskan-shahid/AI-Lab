@@ -271,18 +271,20 @@ Fixed Code Re-Scanned
 
 
 ---
-🖼️ Dashboard Preview
-1. Security Scanner & Issue Detection
+### 1. Security Scanner & Issue Detection
 
-<p align="center"> <<img width="1600" height="742" alt="image" src="https://github.com/user-attachments/assets/b05d0ab3-cbe8-41be-9c9b-0162a2b83ded" />
-> <<img width="1434" height="778" alt="image" src="https://github.com/user-attachments/assets/de5a8f55-618b-4fd4-9861-0faa4599521b" />
-"> </p>
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/b05d0ab3-cbe8-41be-9c9b-0162a2b83ded" alt="Security Scanner">
+  <img width="300" src="https://github.com/user-attachments/assets/de5a8f55-618b-4fd4-9861-0faa4599521b" alt="Security Issues">
+</p>
 
-2. Code Refactoring & AI Explanation
+### 2. Code Refactoring & AI Explanation
 
-<p align="center"> <i<img width="1450" height="790" alt="image" src="https://github.com/user-attachments/assets/ea0eacfc-fb20-4465-8c2b-f44c76ec451f" />
-"> <<img width="1464" height="789" alt="image" src="https://github.com/user-attachments/assets/b583e3c6-84a2-4ba7-b009-07ab4e8c6348" />
-n"> </p>
+<p align="center">
+  <img width="300" src="https://github.com/user-attachments/assets/ea0eacfc-fb20-4465-8c2b-f44c76ec451f" alt="Code Comparison">
+  <img width="300" src="https://github.com/user-attachments/assets/b583e3c6-84a2-4ba7-b009-07ab4e8c6348" alt="AI Explanation">
+</p>
+
 
 # 👩‍💻 Author
 
